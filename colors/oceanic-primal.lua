@@ -65,7 +65,7 @@ vim.api.nvim_set_hl(0, "MoreMsg",      { fg = colors.green, bg = colors.none, bo
 vim.api.nvim_set_hl(0, "ModeMsg",      { fg = colors.green, bg = colors.none, bold = true })
 
 vim.api.nvim_set_hl(0, "StatusLine",   { fg = colors.black, bg = colors.gray })
-vim.api.nvim_set_hl(0, "StatusLineNC", { fg = colors.gray, bg = colors.black })
+vim.api.nvim_set_hl(0, "StatusLineNC", { fg = colors.black, bg = colors.gray_dark })
 vim.api.nvim_set_hl(0, "StatusLineTerm",   { fg = colors.gray_dark, bg = colors.green })
 vim.api.nvim_set_hl(0, "StatusLineTermNC", { fg = colors.gray, bg = colors.green })
 
