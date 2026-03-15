@@ -3,7 +3,7 @@
 -- Last Change:  2025.09.27
 
 local colors = {
-    black = "#1b2b34",
+    black = "#000000",
     black_light = "#343d46",
     gray_dark = "#4f5b66",
     gray = "#65737e",
