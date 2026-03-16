@@ -4,7 +4,8 @@
 
 local colors = {
     black = "#000000",
-    black_medium = "#080a0c",
+    black_dark = "#080a0c",
+    black_medium = "#141d26",
     black_light = "#1e2730",
     gray_dark = "#3c4a55",
     gray = "#58666f",
@@ -37,10 +38,10 @@ vim.api.nvim_set_hl(0, "ErrorMsg",     { fg = colors.red, bg = colors.none })
 vim.api.nvim_set_hl(0, "WarningMsg",   { fg = colors.orange, bg = colors.none })
 
 vim.api.nvim_set_hl(0, "Cursor",       { fg = colors.black, bg = colors.white })
-vim.api.nvim_set_hl(0, "CursorColumn", { fg = colors.none, bg = colors.black_medium })
+vim.api.nvim_set_hl(0, "CursorColumn", { fg = colors.none, bg = colors.black_dark })
 vim.api.nvim_set_hl(0, "CursorLine",   { fg = colors.none, bg = colors.black_medium })
 
-vim.api.nvim_set_hl(0, "ColorColumn",  { fg = colors.none, bg = colors.black_medium })
+vim.api.nvim_set_hl(0, "ColorColumn",  { fg = colors.none, bg = colors.black_dark })
 
 vim.api.nvim_set_hl(0, "LineNr",       { fg = colors.gray, bg = colors.none })
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg = colors.gray, bg = colors.none })
