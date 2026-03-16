@@ -3,10 +3,11 @@
 -- Last Change:  2025.09.27
 
 local colors = {
-    black = "#1b2b34",
-    black_light = "#343d46",
-    gray_dark = "#4f5b66",
-    gray = "#65737e",
+    black = "#000000",
+    black_medium = "#080a0c",
+    black_light = "#1e2730",
+    gray_dark = "#3c4a55",
+    gray = "#58666f",
     gray_light = "#a7adba",
     white = "#c0c5ce",
     silver = "#cdd3de",
@@ -36,10 +37,10 @@ vim.api.nvim_set_hl(0, "ErrorMsg",     { fg = colors.red, bg = colors.none })
 vim.api.nvim_set_hl(0, "WarningMsg",   { fg = colors.orange, bg = colors.none })
 
 vim.api.nvim_set_hl(0, "Cursor",       { fg = colors.black, bg = colors.white })
-vim.api.nvim_set_hl(0, "CursorColumn", { fg = colors.none, bg = colors.black_light })
-vim.api.nvim_set_hl(0, "CursorLine",   { fg = colors.none, bg = colors.black_light })
+vim.api.nvim_set_hl(0, "CursorColumn", { fg = colors.none, bg = colors.black_medium })
+vim.api.nvim_set_hl(0, "CursorLine",   { fg = colors.none, bg = colors.black_medium })
 
-vim.api.nvim_set_hl(0, "ColorColumn",  { fg = colors.none, bg = colors.black_light })
+vim.api.nvim_set_hl(0, "ColorColumn",  { fg = colors.none, bg = colors.black_medium })
 
 vim.api.nvim_set_hl(0, "LineNr",       { fg = colors.gray, bg = colors.none })
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg = colors.gray, bg = colors.none })
