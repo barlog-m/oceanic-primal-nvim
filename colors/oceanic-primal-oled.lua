@@ -28,7 +28,7 @@ local colors = {
 
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
-vim.g.colors_name = "oceanic-primal"
+vim.g.colors_name = "oceanic-primal-oled"
 
 -- base colors
 vim.api.nvim_set_hl(0, "Normal",       { fg = colors.white, bg = colors.black })
